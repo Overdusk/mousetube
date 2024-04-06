@@ -1,0 +1,222 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main-aside{
+    width: 15vw;
+    height: 92vh;
+}
+.main-navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+}
+.content-central{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.main-tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 6vh;
+    width: 85vw;
+}
+.video-content{
+    height: 86vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.video-and-tag-content{
+    display: flex;
+    flex-direction: column;
+}
+.logo-and-icon-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: baseline;
+    align-items: center;
+    width: 20vw;
+    height: 8vh;
+}
+.logo-and-icon-container > h3,h4,h5, img {
+    margin-left: 10px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.search-bar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 65vw;
+    height: 8vh;
+}
+.profile-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 8vh;
+    width: 15vw;
+}
+.profile-p{
+    height: 40px;
+    width: 40px;
+    border-radius: 200px;
+}
+.background-mic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1 ;
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+}
+.type-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    height: 16vh;
+    width: 15vw;
+    border-bottom: 1px black solid;
+}
+.home-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    height: 6vh;
+}
+.home-container > h1,h2,h3,h4,h5,h6, i{
+    margin: 0;
+    padding: 0;
+}
+.user-content{
+    height: 30vh;
+    border-bottom: 1px solid black;
+}
+.subscription-content{
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.user-ref-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 1vw;
+    justify-content:baseline;
+    align-items: center;
+    border-radius: 10px;
+    height: 6vh;
+}
+.new-indicator{
+    background-color: aqua;
+    border-radius: 100px;
+    height: 5px;
+    width: 5px;
+}
+.channel-p{
+    height: 25px;
+    width: 25px;
+    border-radius: 30px;
+}
+.custom-input{
+    width: 36vw;
+    height: 4vh;
+    border: 1px solid #f1f1f1;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.background-search-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1 ;
+    height: 35px;
+    width: 35px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #f1f1f1 ;
+}
+.tag-box-active{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    width: 4vw;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.tag-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 4vh;
+    width: 7vw;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+.video-cover-and-info{
+    height: 39vh;
+    width: 28vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.video-cover{
+    height: 200px;
+    width: 370px;
+    border-radius: 15px;
+}
+.channel-and-title{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 10px;
+}
